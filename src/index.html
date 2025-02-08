@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero" >
+        <div class="container" >
+            <img class="hero__logo" src="./images/ebac_logo.svg" alt="">
+            <p class="hero__text">Faltam <span id="contador"></span> para o aniversário </p>
+            
+        </div>
+    </header>
+
+    <!-- Images section -->
+    <section class="event event--frontend" >
+        <div class="container"  data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Front-end</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas minima dolore, sunt libero delectus facere iusto aspernatur quo porro quae vero aperiam quam nihil autem quos magnam, consectetur voluptatum. Nemo!
+                </p>
+            </div>
+            <img class="event__image" src="./images/1739045928100.jpg" alt="frontend">
+        </div>
+    </section>
+
+
+    <section class="event event--ux-ui event--image-left" >
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">UI UX</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas minima dolore, sunt libero delectus facere iusto aspernatur quo porro quae vero aperiam quam nihil autem quos magnam, consectetur voluptatum. Nemo!
+                </p>
+            </div>
+            <img class="event__image" src="./images/1739045928107.jpg" alt="ui-ux">
+        </div>
+    </section>
+
+    <section class="event event--data-science" >
+        <div class="container"  data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Data Science</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas minima dolore, sunt libero delectus facere iusto aspernatur quo porro quae vero aperiam quam nihil autem quos magnam, consectetur voluptatum. Nemo!
+                </p>
+            </div>
+            <img class="event__image" src="./images/1739045928094.jpg" alt="data">
+        </div>
+    </section>
+
+    <section class="event event--backend event--image-left" >
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Back End</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas minima dolore, sunt libero delectus facere iusto aspernatur quo porro quae vero aperiam quam nihil autem quos magnam, consectetur voluptatum. Nemo!
+                </p>
+            </div>
+            <video autoplay loop muted playsinline>
+                <source class="event__image" src="images/VID-20220427-WA0046.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
