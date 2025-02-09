@@ -13,6 +13,7 @@
     font-family: Roboto, sans-serif;
     color: variables.$textColor;
     list-style: none;
+    overflow-x: hidden;
 
 }
 
@@ -35,5 +36,14 @@
 
     @media (max-width: 1024px) {
         max-width: 90%;
+    }
+}
+
+.text_hide {
+    margin-top: 15px;
+    color: transparent;
+
+    &:hover {
+        color: variables.$textColor;
     }
 }
