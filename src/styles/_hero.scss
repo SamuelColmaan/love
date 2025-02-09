@@ -8,6 +8,10 @@
     background-size: cover;
     position: relative; /* Ensure it acts as a reference for absolute positioning */
 
+    @media (max-width: 640px) {
+        background-image: url(../images/1739045983800.jpg);
+    }
+
     .container {
         position: relative;
     }
