@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative; /* Ensure it acts as a reference for absolute positioning */
+   
 
     @media (max-width: 640px) {
         background-image: url(../images/1739045983800.jpg);
@@ -35,7 +36,26 @@
         line-height: 56px;
         font-weight: 800;
         text-align: center;
+        animation: grow-shrink 1.5s infinite alternate ease-in-out;
+        @keyframes grow-shrink {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.1);
+            }
+        }
     }
+        /* animation: jump 0.5s infinite alternate ease-in-out;
+        @keyframes jump {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-50px);
+            }
+        }
+    } */
 
     &__logo {
         margin: 0 auto;
